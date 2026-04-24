@@ -1,5 +1,5 @@
 # Privacy Policy
-**Last updated: April 2, 2026**
+**Last updated: April 24, 2026**
 
 I, **Ramin Isayev** (operating as "Ramin Labs"), am the developer of the **Islamic StandBy: Quran Clock** mobile application (the "App"). This page informs you of my policies regarding the collection, use, and disclosure of personal data when you use my App.
 
@@ -28,14 +28,20 @@ The App does not request any sensitive permissions (such as access to your camer
 ## 5. Children's Privacy
 My App does not collect any personal information from anyone, including children under the age of 13. Since the content is religious and educational, it is safe for all audiences.
 
-## 6. Data Deletion
+## 6. Hardware and Screen Usage Disclaimer
+The App is designed to keep the screen active for extended periods to display religious content and clock interfaces.
+
+- **OLED/AMOLED Screens:** While the App includes an "OLED Screen Protection" feature to minimize risks, the User acknowledges that prolonged display of static elements on OLED/AMOLED screens carries an inherent risk of permanent image retention ("burn-in").
+- **Limitation of Liability:** The Developer provides the App "as is" and shall not be held liable for any hardware damage, including but not limited to screen burn-in, pixel degradation, or accelerated battery wear, resulting from the use of the App. By using the App, you agree to assume all responsibility for the usage and maintenance of your device's hardware.
+
+## 7. Data Deletion
 Since the App does not require user accounts, I do not store your personal information on any external servers. 
 - **Local Data:** You can delete all your local preferences and settings at any time by clearing the App's cache/data in your device settings or by uninstalling the App.
 - **Transaction Data:** If you wish to request the deletion of any transaction-related information provided to me by Google Play (such as transaction IDs), please contact me at **ramin.isayev.dev@gmail.com**. I will process your request within 30 days.
 
-## 7. Changes to This Privacy Policy
+## 8. Changes to This Privacy Policy
 I may update my Privacy Policy from time to time. I will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.
 
-## 8. Contact Me
+## 9. Contact Me
 If you have any questions or suggestions about this Privacy Policy, please contact me by email:
 **ramin.isayev.dev@gmail.com**
