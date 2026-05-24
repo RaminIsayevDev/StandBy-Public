@@ -1,21 +1,29 @@
 # Privacy Policy
-**Last updated: April 24, 2026**
+**Last updated: May 24, 2026**
 
 I, **Ramin Isayev** (operating as "Ramin Labs"), am the developer of the **Islamic StandBy: Quran Clock** mobile application (the "App"). This page informs you of my policies regarding the collection, use, and disclosure of personal data when you use my App.
 
 ## 1. Information Collection and Use
-**Islamic StandBy: Quran Clock** is designed as a focused application for displaying religious texts and providing a spiritual clock interface. 
+**Islamic StandBy: Quran Clock** is designed as a focused application for displaying religious texts, providing a spiritual clock interface, and offering prayer-related utilities.
 
-- **Personal Data:** I **do not** collect, store, or transmit any personal information such as your name, email address, phone number, or precise location.
-- **Local Storage:** All user preferences (such as theme and language settings) are stored locally on your device using Android DataStore and are not accessible by me.
+- **Personal Data:** I **do not** collect, store, or transmit any personal information such as your name, email address, phone number, or precise real-time location.
+- **Approximate Location Data:** If you enable the automatic GPS mode, the App accesses your device's approximate location (Coarse Location). This data is processed **locally on your device** solely to calculate accurate prayer times and the Qibla direction. It is **never** sent to my servers, stored, or shared with third parties.
+- **Local Storage:** All user preferences (such as theme, language settings, and manually selected cities) are stored locally on your device using Android DataStore and are not accessible by me.
 
-## 2. Third-Party Services (Google Play Services)
-While I do not collect your data directly, the App uses third-party services provided by Google that may collect information used to identify you. These include:
+## 2. Third-Party Services and APIs
+While I do not collect your data directly, the App integrates third-party services and APIs for core functionality:
+
+**A. Google Play Services:**
+The App uses services provided by Google which may collect information used to identify you (such as Device IDs, IP addresses, and crash logs for diagnostics and security):
 - **Google Play Services:** Required for core app functionality.
 - **Google Play Billing Library:** Used to process voluntary donations.
 - **Google Play Integrity API:** Used to ensure the security and integrity of the App.
 
-These services may collect data such as Device IDs, IP addresses, and crash logs for diagnostics and fraud prevention.
+**B. External API Connections:**
+To provide real-time religious data, the App connects to the following external APIs. These connections are purely functional, and no personal identifiers are sent. However, these servers may temporarily process your IP address to complete the network request:
+- **Aladhan API:** Used to synchronize Hijri calendar dates and verify prayer times.
+- **Nominatim (OpenStreetMap) API:** Used in manual search mode to convert your manually typed city name into coordinates.
+- **Audio Hosting Providers:** Used to stream Quran audio recitations for the built-in media player.
 
 ## 3. In-App Purchases (Donations)
 The App offers the option to make voluntary donations via the Google Play Billing Library.
@@ -23,7 +31,12 @@ The App offers the option to make voluntary donations via the Google Play Billin
 - **Transaction Data:** Google may provide me with non-sensitive information about the transaction (such as a transaction ID and date) for the purpose of validating the purchase.
 
 ## 4. Permissions
-The App does not request any sensitive permissions (such as access to your camera, microphone, contacts, or location).
+To function properly, the App may request the following device permissions:
+- **Approximate Location (ACCESS_COARSE_LOCATION):** Required to automatically calculate prayer times and Qibla compass alignment based on your current city. You can refuse this permission and use the manual city search instead.
+- **Internet Access (INTERNET):** Required to stream Quran audio, sync the Hijri calendar, and search for cities in manual mode.
+- **Notification Access:** Used to deliver prayer time alerts (if enabled by the user).
+
+The App does not request any highly sensitive permissions (such as access to your camera, microphone, precise location, contacts, or storage files).
 
 ## 5. Children's Privacy
 My App does not collect any personal information from anyone, including children under the age of 13. Since the content is religious and educational, it is safe for all audiences.
